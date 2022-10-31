@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/slimy/Documents/GitHub/CUDA-Rasterizerr/cmake/FindCUDA/run_nvcc.cmake
+C:/Users/slimy/Documents/GitHub/CUDA-Rasterizerr/src/CMakeLists.txt
+D:/Downloads/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/src/CMakeFiles/src.dir/src_generated_rasterize.cu.obj.depend

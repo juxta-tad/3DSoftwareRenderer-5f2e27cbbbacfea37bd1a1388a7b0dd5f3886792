@@ -1,0 +1,26 @@
+^C:\USERS\SLIMY\DOCUMENTS\GITHUB\CUDA-RASTERIZERR\SRC\RASTERIZE.CU
+setlocal
+cd D:\Downloads\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\src\CMakeFiles\src.dir
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Downloads/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/src/CMakeFiles/src.dir//Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\bin" -D build_configuration:STRING=Debug -D generated_file:STRING=D:/Downloads/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/src/CMakeFiles/src.dir//Debug/src_generated_rasterize.cu.obj -D generated_cubin_file:STRING=D:/Downloads/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/src/CMakeFiles/src.dir//Debug/src_generated_rasterize.cu.obj.cubin.txt -P D:/Downloads/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/src/CMakeFiles/src.dir//src_generated_rasterize.cu.obj.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SLIMY\DOCUMENTS\GITHUB\CUDA-RASTERIZERR\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/slimy/Documents/GitHub/CUDA-Rasterizerr -BD:/Downloads/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792 --check-stamp-file D:/Downloads/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

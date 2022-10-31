@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Downloads\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\CMakeFiles\c81fde416a3ae800af18e310afcc8446\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BCD67D8E-743F-3815-9FF3-66B7D24FEA57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

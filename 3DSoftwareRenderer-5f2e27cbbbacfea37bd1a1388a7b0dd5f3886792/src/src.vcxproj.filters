@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="C:\Users\slimy\Documents\GitHub\CUDA-Rasterizerr\src\rasterize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\slimy\Documents\GitHub\CUDA-Rasterizerr\src\rasterizeTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\slimy\Documents\GitHub\CUDA-Rasterizerr\src\rasterize.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\slimy\Documents\GitHub\CUDA-Rasterizerr\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Downloads\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\src\CMakeFiles\src.dir\$(Configuration)\src_generated_rasterize.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Downloads\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\3DSoftwareRenderer-5f2e27cbbbacfea37bd1a1388a7b0dd5f3886792\src\CMakeFiles\src.dir\$(Configuration)\src_intermediate_link.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F37F5645-1FCB-39C4-8CEF-633B286A468B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{CC4FC48D-AF69-35C5-95CC-A6278428D4F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FA6AF4B5-3432-3F21-B938-6478D77817B7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
